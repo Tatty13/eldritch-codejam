@@ -8,7 +8,7 @@ let conf = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'main.js',
-    publicPath: '/',
+    publicPath: './dist/',
   },
 
   devServer: {
